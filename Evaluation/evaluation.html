@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Evaluation</title>
+        <link rel="stylesheet" href="evaluation.css">
+    </head>
+    
+    <body>
+        <div id="box">
+            <h1>Evaluation</h1>
+            <div class="section" id="inputs">
+                <form>
+                    <input class="theIn" type="text" name="username" id="username" value="Username" onclick="this.value=''" required><br/>
+                    <textarea class="theIn" name="comment" onclick="this.value=''">Write your comment.</textarea><br>
+                    <table id="optionTable">
+                        <tr><td><input type="checkbox" class="checkbox">first</td>
+                            <td><input type="checkbox" class="checkbox">second</td>
+                            <td><input type="checkbox" class="checkbox">third</td>
+                            <td><input type="checkbox" class="checkbox">forth</td>
+                            <td><input type="checkbox" class="checkbox">fifth</td>
+                        </tr>
+                        <tr><td><input type="checkbox" class="checkbox">sixth</td>
+                            <td><input type="checkbox" class="checkbox">seventh</td>
+                            <td><input type="checkbox" class="checkbox">eighth</td>
+                            <td><input type="checkbox" class="checkbox">ninth</td>
+                            <td><input type="checkbox" class="checkbox">tenth</td>
+                        </tr>                        
+                        <tr><td><input type="checkbox" class="checkbox">...</td>
+                            <td><input type="checkbox" class="checkbox">...</td>
+                            <td><input type="checkbox" class="checkbox">...</td>
+                            <td><input type="checkbox" class="checkbox">...</td>
+                            <td><input type="checkbox" class="checkbox">...</td>
+                        </tr>
+                    </table>
+                    <input type="submit" id="submit" value="Submit"><br/>
+
+                </form>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    </body>
+</html>
